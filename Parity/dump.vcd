@@ -1,0 +1,44 @@
+$date
+	Fri Jan 19 22:27:10 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module TB $end
+$var wire 1 ! parity $end
+$var reg 8 " data_in [7:0] $end
+$scope module dut $end
+$var wire 8 # data_in [7:0] $end
+$var parameter 32 $ data_width $end
+$var reg 1 ! parity $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 % i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 $
+$end
+#0
+$dumpvars
+b1000 %
+b0 #
+b0 "
+0!
+$end
+#50
+1!
+b1000 %
+b10000000 "
+b10000000 #
+#100
+b1000 %
+0!
+b10100000 "
+b10100000 #
+#150

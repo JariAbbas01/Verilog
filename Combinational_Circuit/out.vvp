@@ -1,0 +1,108 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_0000015a35c27350 .scope module, "TB" "TB" 2 2;
+ .timescale 0 0;
+v0000015a35c6c8e0_0 .var "A", 0 0;
+v0000015a35c6c980_0 .var "B", 0 0;
+v0000015a35c23a40_0 .var "C", 0 0;
+v0000015a35c24080_0 .net "Q", 0 0, L_0000015a35c6d090;  1 drivers
+S_0000015a35c274e0 .scope module, "dut" "combinationalLogic" 2 7, 3 1 0, S_0000015a35c27350;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /INPUT 1 "C";
+    .port_info 3 /OUTPUT 1 "Q";
+L_0000015a35d5aa70 .functor AND 1, v0000015a35c6c8e0_0, v0000015a35c6c980_0, C4<1>, C4<1>;
+L_0000015a35d599e0 .functor NOT 1, L_0000015a35d5aa70, C4<0>, C4<0>, C4<0>;
+L_0000015a35c6cd10 .functor OR 1, v0000015a35c6c8e0_0, v0000015a35c6c980_0, C4<0>, C4<0>;
+L_0000015a35c6d020 .functor NOT 1, L_0000015a35c6cd10, C4<0>, C4<0>, C4<0>;
+L_0000015a35c6cca0 .functor AND 1, L_0000015a35d599e0, L_0000015a35c6d020, C4<1>, C4<1>;
+L_0000015a35c6d090 .functor AND 1, L_0000015a35c6cca0, v0000015a35c23a40_0, C4<1>, C4<1>;
+v0000015a35bf3020_0 .net "A", 0 0, v0000015a35c6c8e0_0;  1 drivers
+v0000015a35bf2bf0_0 .net "B", 0 0, v0000015a35c6c980_0;  1 drivers
+v0000015a35d59940_0 .net "C", 0 0, v0000015a35c23a40_0;  1 drivers
+v0000015a35d5a9d0_0 .net "E", 0 0, L_0000015a35d599e0;  1 drivers
+v0000015a35c27670_0 .net "F", 0 0, L_0000015a35c6d020;  1 drivers
+v0000015a35c27710_0 .net "Q", 0 0, L_0000015a35c6d090;  alias, 1 drivers
+v0000015a35d5bc10_0 .net *"_ivl_0", 0 0, L_0000015a35d5aa70;  1 drivers
+v0000015a35d5bcb0_0 .net *"_ivl_4", 0 0, L_0000015a35c6cd10;  1 drivers
+v0000015a35c6c840_0 .net *"_ivl_8", 0 0, L_0000015a35c6cca0;  1 drivers
+    .scope S_0000015a35c27350;
+T_0 ;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0000015a35c6c8e0_0, 0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0000015a35c6c980_0, 0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0000015a35c23a40_0, 0;
+    %delay 100, 0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0000015a35c6c8e0_0, 0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0000015a35c6c980_0, 0;
+    %pushi/vec4 1, 0, 1;
+    %assign/vec4 v0000015a35c23a40_0, 0;
+    %delay 100, 0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0000015a35c6c8e0_0, 0;
+    %pushi/vec4 1, 0, 1;
+    %assign/vec4 v0000015a35c6c980_0, 0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0000015a35c23a40_0, 0;
+    %delay 100, 0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0000015a35c6c8e0_0, 0;
+    %pushi/vec4 1, 0, 1;
+    %assign/vec4 v0000015a35c6c980_0, 0;
+    %pushi/vec4 1, 0, 1;
+    %assign/vec4 v0000015a35c23a40_0, 0;
+    %delay 100, 0;
+    %pushi/vec4 1, 0, 1;
+    %assign/vec4 v0000015a35c6c8e0_0, 0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0000015a35c6c980_0, 0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0000015a35c23a40_0, 0;
+    %delay 100, 0;
+    %pushi/vec4 1, 0, 1;
+    %assign/vec4 v0000015a35c6c8e0_0, 0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0000015a35c6c980_0, 0;
+    %pushi/vec4 1, 0, 1;
+    %assign/vec4 v0000015a35c23a40_0, 0;
+    %delay 100, 0;
+    %pushi/vec4 1, 0, 1;
+    %assign/vec4 v0000015a35c6c8e0_0, 0;
+    %pushi/vec4 1, 0, 1;
+    %assign/vec4 v0000015a35c6c980_0, 0;
+    %pushi/vec4 0, 0, 1;
+    %assign/vec4 v0000015a35c23a40_0, 0;
+    %delay 100, 0;
+    %pushi/vec4 1, 0, 1;
+    %assign/vec4 v0000015a35c6c8e0_0, 0;
+    %pushi/vec4 1, 0, 1;
+    %assign/vec4 v0000015a35c6c980_0, 0;
+    %pushi/vec4 1, 0, 1;
+    %assign/vec4 v0000015a35c23a40_0, 0;
+    %delay 100, 0;
+    %end;
+    .thread T_0;
+    .scope S_0000015a35c27350;
+T_1 ;
+    %vpi_call 2 34 "$dumpfile", "dump.vcd" {0 0 0};
+    %vpi_call 2 35 "$dumpvars", 32'sb00000000000000000000000000000000 {0 0 0};
+    %end;
+    .thread T_1;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "TB_combCircuit.v";
+    "combCircuit.v";

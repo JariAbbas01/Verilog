@@ -1,0 +1,56 @@
+$date
+	Thu Jan 18 16:15:54 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testBench $end
+$var wire 8 ! data_out [7:0] $end
+$var reg 4 " address [3:0] $end
+$var reg 1 # chip_enable $end
+$var reg 1 $ read_enable $end
+$scope module dut $end
+$var wire 4 % address [3:0] $end
+$var wire 1 # chip_enable $end
+$var wire 1 $ read_enable $end
+$var parameter 32 & address_width $end
+$var parameter 32 ' data_width $end
+$var parameter 32 ( memory_depth $end
+$var reg 8 ) data_out [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10000 (
+b1000 '
+b100 &
+$end
+#0
+$dumpvars
+b1001010 )
+b0 %
+1$
+1#
+b0 "
+b1001010 !
+$end
+#100
+b1000001 !
+b1000001 )
+b1 "
+b1 %
+#200
+b1010010 !
+b1010010 )
+b10 "
+b10 %
+#300
+b1001001 !
+b1001001 )
+b11 "
+b11 %
+#400

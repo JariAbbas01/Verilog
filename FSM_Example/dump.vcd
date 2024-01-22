@@ -1,0 +1,74 @@
+$date
+	Mon Jan 15 18:22:32 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb $end
+$var wire 1 ! gen_1 $end
+$var wire 1 " gen_0 $end
+$var reg 1 # clk $end
+$var reg 1 $ req_0 $end
+$var reg 1 % req_1 $end
+$var reg 1 & reset $end
+$scope module dut $end
+$var wire 1 # clk $end
+$var wire 1 $ req_0 $end
+$var wire 1 % req_1 $end
+$var wire 1 & reset $end
+$var parameter 3 ' GEN0 $end
+$var parameter 3 ( GEN1 $end
+$var parameter 3 ) IDLE $end
+$var reg 1 " gen_0 $end
+$var reg 1 ! gen_1 $end
+$var reg 3 * next_state [2:0] $end
+$var reg 3 + state [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 )
+b100 (
+b10 '
+$end
+#0
+$dumpvars
+b1 +
+b1 *
+1&
+0%
+0$
+1#
+0"
+0!
+$end
+#50
+0#
+#100
+b100 +
+b1 *
+1!
+1#
+1%
+0&
+#150
+0#
+#200
+b10 *
+1"
+b1 +
+0!
+1#
+0%
+1$
+#250
+0#
+#300
+1"
+b1 *
+b10 +
+1#

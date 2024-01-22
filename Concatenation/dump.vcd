@@ -1,0 +1,37 @@
+$date
+	Thu Jan 11 17:45:07 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module TB $end
+$var wire 16 ! D [15:0] $end
+$var wire 8 " C [7:0] $end
+$var reg 2 # A [1:0] $end
+$var reg 4 $ B [3:0] $end
+$scope module dut $end
+$var wire 2 % A [1:0] $end
+$var wire 4 & B [3:0] $end
+$var wire 16 ' D [15:0] $end
+$var wire 8 ( C [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b100101 (
+b1010101010101010 '
+b10 &
+b10 %
+b10 $
+b10 #
+b100101 "
+b1010101010101010 !
+$end
+#100

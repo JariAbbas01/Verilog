@@ -1,0 +1,72 @@
+$date
+	Mon Jan 15 22:11:07 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module TB $end
+$var wire 1 ! Q_Bar $end
+$var wire 1 " Q $end
+$var reg 1 # Data_in $end
+$var reg 1 $ Enable $end
+$var reg 1 % clk $end
+$var reg 1 & reset $end
+$scope module dut $end
+$var wire 1 # Data_in $end
+$var wire 1 $ Enable $end
+$var wire 1 % clk $end
+$var wire 1 & reset $end
+$var reg 1 " Q $end
+$var reg 1 ! Q_Bar $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1&
+1%
+0$
+0#
+0"
+x!
+$end
+#50
+0%
+#100
+0!
+1"
+1%
+1#
+1$
+0&
+#150
+0%
+#200
+1!
+0"
+1%
+0#
+#250
+0%
+#300
+0!
+1"
+1%
+1#
+#350
+0%
+#400
+1!
+0"
+1%
+0#
+#450
+0%
+#500
+1%

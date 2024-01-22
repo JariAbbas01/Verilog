@@ -1,0 +1,72 @@
+$date
+	Mon Jan 15 16:12:18 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module TestBench_FSM $end
+$var wire 1 ! out $end
+$var reg 1 " clk $end
+$var reg 1 # in $end
+$var reg 1 $ reset $end
+$scope module dut $end
+$var wire 1 " clk $end
+$var wire 1 # in $end
+$var wire 1 $ reset $end
+$var parameter 32 % s0 $end
+$var parameter 32 & s1 $end
+$var reg 1 ' next_state $end
+$var reg 1 ! out $end
+$var reg 1 ( state $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 &
+b0 %
+$end
+#0
+$dumpvars
+0(
+1'
+1$
+1#
+1"
+0!
+$end
+#50
+0"
+#100
+0'
+1!
+1(
+1"
+0#
+0$
+#150
+0"
+#200
+1'
+0!
+0(
+1"
+1#
+#250
+0"
+#300
+0'
+1!
+1(
+1"
+0#
+#350
+0"
+#400
+1'
+0!
+0(
+1"
