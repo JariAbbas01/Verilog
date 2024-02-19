@@ -1,4 +1,4 @@
-**Verilog Tutorial Repository**
+
 Hi! this is Jari Abbas Rizvi and Welcome to the Verilog Tutorial repository! This repository serves as a comprehensive learning resource for Verilog hardware description language (HDL). Here, you will find simple Verilog code examples covering various fundamental concepts and designs commonly encountered in digital circuit design.
 
 Code Examples
